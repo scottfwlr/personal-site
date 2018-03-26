@@ -1,5 +1,5 @@
 # personal-site
 my portfolio and contact information
 
-[yak](scottfwlr-yak.herokuapp.com) | [(github)](github.com/scottfwlr/yak)
+[yak](https://scottfwlr-yak.herokuapp.com) | [(github)](https://github.com/scottfwlr/yak)
 
