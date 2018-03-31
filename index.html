@@ -1,18 +1,218 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-  <title>Scott Fowler</title>
-  <script src="index.js"></script>
-</head>
-<body>
-  <header id='nav'>
-    
-  </header>
-  <main id='main'>
-    
-  </main>
-  <footer id='contact'>
-    
-  </footer>
-</body>
+	<head>
+		<title>Scott Fowler | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	  <script src="https://rawgit.com/web-animations/web-animations-js/master/web-animations.min.js"></script>
+	  <style type="text/css">
+	  	.logo,
+	  	.logo .icon {
+	  		box-sizing: revert;
+	  	}
+	  	.logo .icon {
+	  		font-size: 2.5em !important;
+	  		height: 2em !important;
+	  		width: 2em !important;
+	  		line-height: 2em !important;
+	  		animation-name: spin;
+	  		animation-delay: 0s;
+	  		animation-duration: 3s;
+	  		animation-timing-function: cubic-bezier(0, 0.8, 0.5, 1);
+	  		animation-fill-mode: forwards;
+  	}
+
+	  	@keyframes spin {
+	  		0% {
+	  			transform: rotate(1440deg);
+	  		}
+	  		100% {
+	  			transform: rotate(0deg);
+	  		}
+
+	  	}
+	  	.special-container {
+	  		display: flex;
+	  		flex-flow: row;
+	  		justify-content: space-evenly;
+	  	}
+	  	.special-container a {
+	  		flex: none;
+	  	}
+	  </style>
+
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Scott Fowler</a></h1>
+						<nav>
+							<a href="#menu">Contact</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Contact Me</h2>
+							<ul class="links">
+								<li><a href="https://scottfwlr.com/projects.html">Projects</a></li>
+								<li><a href="https://github.com/scottfwlr/">Github</a></li>
+								<li><a href="https://linkedin.com/in/scottfwlr/">LinkedIn</a></li>
+								<li><a href="https://angel.co/scott-fowler-3/">AngelList</a></li>
+								<li><a href="http://talentmatch.ai/scott-fowler/">TalentMatch</a></li>
+								<li><a href="#contact-me">Get in touch</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><span class="icon fa-circle-o-notch"></span></div>
+							<h2>Scott Fowler</h2>
+							<p>Software Engineer</p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/me.jpg" alt="A portrait picture of Scott Fowler" /></a>
+									<div class="content">
+										<h2 class="major">I am:</h2>
+										<p>New York-based software engineer, web developer, coder, hacker, and machine.</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="projects.html" class="image"><img src="images/techs.jpg" alt="A panorama of logos from technologies I've worked with: Ruby, Rails, React, JavaScript, and more" /></a>
+									<div class="content">
+										<h2 class="major">I make:</h2>
+										<p>Single-page apps and RESTful sites. Frontends with React, Redux, jQuery, JavaScript. Backends with Rails, Ruby, Node, Express. Real-time live interactivity with Websockets, stunning visuals with 60fps CSS3D animations. Open source projects with next-generation JavaScript.</p>
+										<a href="https://github.com/scottfwlr" class="special">GITHUB</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper style3">
+								<div class="inner">
+									<h2 class="major">Projects</h2>
+									<section class="features">
+										<article>
+											<a href="yak.html" class="image"><img src="images/yak.jpg" alt="" /></a>
+											<h3 class="major">Yak</h3>
+											<p>A full-stack Slack clone. Rails/Redux frontend, Rails/ActionCable backend.</p>
+											<div class='special-container'>
+												<a href="http://scottfwlr-yak.herokuapp.com/" class="special">Live</a>
+												<a href="https://github.com/scottfwlr/yak" class="special">Repo</a>
+											</div>
+										</article>
+										<article>
+											<a href="figgie.html" class="image"><img src="images/figgie.jpg" alt="" /></a>
+											<h3 class="major">Figgie</h3>
+											<p>A card game animated with CSS3D transforms.</p>
+											<div  class='special-container'>
+												<a href="#" class="special">Live</a>
+												<a href="#" class="special">Repo</a>
+											</div>
+										</article>
+										<article>
+											<a href="ribs.html" class="image"><img src="images/ribs.jpg" alt="" /></a>
+											<h3 class="major">Ribs</h3>
+											<p>A Rails clone, with less magic.</p>
+											<div  class='special-container'>
+												<a href="#" class="special">Live</a>
+												<a href="#" class="special">Repo</a>
+											</div>
+										</article>
+										<article>
+											<a href="dsv.html" class="image"><img src="images/dsv.jpg" alt="" /></a>
+											<h3 class="major">Data Structures Viz</h3>
+											<p><i>under construction</i></p>
+											<div  class='special-container'>
+												<a href="#" class="special">Live</a>
+												<a href="#" class="special">Repo</a>
+											</div>
+										</article>
+									</section>
+									<ul class="actions">
+										<li><a href="projects.html" class="button">See all projects</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner" id='contact-me'>
+							<h2 class="major">Get in touch</h2>
+							<form method="post" action="#" disabled>
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" disabled />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" disabled />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea disabled  name="message" id="message" rows="4"></textarea>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" disabled /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="fa-envelope"><a href="mailto:scott@scottfwlr.com">scott@scottfwlr.com</a></li>
+								<li class="fa-github"><a href="https://github.com/scottfwlr">github.com/scottfwlr</a></li>
+								<li class="fa-linkedin"><a href="https://linkedin.com/in/scottfwlr">linkedin.com/scottfwlr</a></li>
+								<li class="fa-angellist"><a href="https://angel.co/scott-fowler-3">angel.co/scottfwlr</a></li>
+								<li class="fa-phone">(914) 770-5234</li>
+								<li class="fa-home">
+									Scott Fowler<br />
+									526 N High St<br />
+									Mt Vernon, NY 10552
+								</li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; scottfwlr. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
