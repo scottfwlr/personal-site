@@ -48,6 +48,22 @@
 	  	.special-container a {
 	  		flex: none;
 	  	}
+
+	  	#footer ul.contact {
+        width: 100% !important;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+      }
+
+      #footer ul.contact li {
+        flex: none;
+        width: 40%;
+      }
+
+      #footer ul.contact li:first-child {
+        display: none;
+      }
 	  </style>
 
 	</head>
@@ -169,24 +185,8 @@
 					<section id="footer">
 						<div class="inner" id='contact-me'>
 							<h2 class="major">Get in touch</h2>
-							<form method="post" action="#" disabled>
-								<div class="field">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" disabled />
-								</div>
-								<div class="field">
-									<label for="email">Email</label>
-									<input type="email" name="email" id="email" disabled />
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea disabled  name="message" id="message" rows="4"></textarea>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" disabled /></li>
-								</ul>
-							</form>
 							<ul class="contact">
+								<li></li>
 								<li class="fa-envelope"><a href="mailto:scott@scottfwlr.com">scott@scottfwlr.com</a></li>
 								<li class="fa-github"><a href="https://github.com/scottfwlr">github.com/scottfwlr</a></li>
 								<li class="fa-linkedin"><a href="https://linkedin.com/in/scottfwlr">linkedin.com/scottfwlr</a></li>
