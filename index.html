@@ -28,7 +28,6 @@
 	  		animation-delay: 0s;
 	  		animation-duration: 3s;
 	  		animation-timing-function: cubic-bezier(0, 0.8, 0.5, 1);
-	  		animation-fill-mode: forwards;
   	}
 
 	  	@keyframes spin {
@@ -76,23 +75,25 @@
 					<header id="header" class="alt">
 						<h1><a href="index.html">Scott Fowler</a></h1>
 						<nav>
-							<a href="#menu">Contact</a>
+							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 
 				<!-- Menu -->
 					<nav id="menu">
-						<div class="inner">
-							<h2>Contact Me</h2>
-							<ul class="links">
-								<li><a href="projects.html">Projects</a></li>
-								<li><a href="https://github.com/scottfwlr/">Github</a></li>
-								<li><a href="https://linkedin.com/in/scottfwlr/">LinkedIn</a></li>
-								<li><a href="https://angel.co/scott-fowler-3/">AngelList</a></li>
-								<li><a href="http://talentmatch.ai/scott-fowler/">TalentMatch</a></li>
-								<li><a href="#contact-me">Get in touch</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
+						<div class='inner'>
+								<ul class='actions vertical'>
+									<li class='fit'><a class='button special' href="projects.html">Projects</a></li>
+								</ul>
+								<h2>Contact Me</h2>
+								<ul class="links">
+									<li><a href="https://github.com/scottfwlr/">Github</a></li>
+									<li><a href="https://linkedin.com/in/scottfwlr/">LinkedIn</a></li>
+									<li><a href="https://angel.co/scott-fowler-3/">AngelList</a></li>
+									<li><a href="http://talentmatch.ai/scott-fowler/">TalentMatch</a></li>
+									<li><a class='alt' href="#contact-me">Get in touch</a></li>
+								</ul>
+								<a href="#" class="close">Close</a>
 						</div>
 					</nav>
 
@@ -174,7 +175,7 @@
 										</article>
 									</section>
 									<ul class="actions">
-										<li><a href="projects.html" class="button">See all projects</a></li>
+										<li style='width: 100%;'><a href="projects.html" class="button fit">See all projects</a></li>
 									</ul>
 								</div>
 							</section>
@@ -213,6 +214,6 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			
 	</body>
 </html>
